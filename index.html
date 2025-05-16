@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QuickEvent Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>🎉 QuickEvent Pro</h2>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+  </div>
+  <div class="form">
+    <input id="icon" placeholder="Emoji" maxlength="2" style="width:2.5em">
+    <input id="eventName" placeholder="Event name">
+    <input id="eventDate" type="datetime-local">
+    <button onclick="addEvent()">Add Event</button>
+  </div>
+  <div id="events"></div>
+  <script src="main.js"></script>
+</body>
+</html>
