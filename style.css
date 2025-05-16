@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f8f8ff;
+  color: #222;
+  transition: background 0.2s, color 0.2s;
+}
+body.dark {
+  background: #20242a;
+  color: #eaeaea;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form input, .form button {
+  margin: 0.2em;
+  padding: 0.4em;
+  font-size: 1em;
+}
+.event {
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 8px #0001;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+body.dark .event {
+  background: #262c34;
+}
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.event .actions button {
+  margin-left: 0.5em;
+}
